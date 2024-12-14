@@ -58,6 +58,7 @@ A very lean Node.js CLI boilerplate.
 
 ## Scripts
 
+- `npm run build`: Build the binary. The output `.js` file will be in the `bin` folder.
 - `npm run start`: Start the application.
 - `npm run start:watch`: Start the application in watch mode.
   Use it when you're developing.
@@ -69,6 +70,7 @@ A very lean Node.js CLI boilerplate.
 - [Architecture Overview](./docs/ARCHITECTURE.md)
 - [Environment Configuration](./docs/ENVIRONMENT.md)
 - [Node.js Configuration](./docs/NODEJS_CONFIG.md)
+- [Linking](./docs/LINKING.md)
 - [Testing Guide](./docs/TESTING.md)
 - [Contribution Guidelines](./docs/CONTRIBUTING.md)
 - [Dependencies](./docs/DEPENDENCIES.md)

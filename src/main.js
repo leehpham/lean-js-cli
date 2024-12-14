@@ -1,9 +1,9 @@
-import * as crypto from "node:crypto";
+#!/usr/bin/env node
 
-function sha256Digest(message, encoding) {
-  return crypto.createHash("sha256").update(message).digest(encoding);
-}
+// We place a shebang directive at the top stating which
+// interpreter will be used to execute our script.
 
-console.log(sha256Digest("Hello world!"));
-console.log(sha256Digest("Hello world!", "hex"));
-console.log(sha256Digest("Hello world", "base64"));
+// We use the `env` command instead of a direct path to the
+// node executable since we might have multiple node versions installed.
+
+console.log("Hello World!");
