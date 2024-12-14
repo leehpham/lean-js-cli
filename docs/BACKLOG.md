@@ -4,6 +4,7 @@
 
 ## Todo
 
+- Consider replacing `arg` with `commander` or `yargs`.
 - [] Set up debugger
   - [x] vscode
   - phpstorm
