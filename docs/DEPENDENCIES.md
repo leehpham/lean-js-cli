@@ -2,6 +2,11 @@
 
 ## Runtime Dependencies
 
+- `arg`: An unopinionated, no-frills CLI argument parser.
+  Developed and maintained by Vercel.
+- `chalk`: Terminal string styling done right.
+  Developed and maintained by chalk.
+
 ## Dev Dependencies
 
 - `@eslint/js`: The beginning of separating out

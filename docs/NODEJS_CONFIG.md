@@ -18,6 +18,7 @@ This document explains the fields set in the `package.json` file.
   as it's listed in `npm search`.
   Remove this if your package/project is private and not published to NPM registry.
 - `"main"`: The entry point to your program.
+- `"bin"`: is used to install a package's executable file(s) into the PATH.
 - `"scripts"`: Script commands. See [here](../README.md) for more details.
 - `keywords`: This helps people discover your package/project
   as it's listed in `npm search`.
