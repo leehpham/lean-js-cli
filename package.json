@@ -4,7 +4,7 @@
   "main": "./src/main.js",
   "bin": "./bin/main.js",
   "scripts": {
-    "build": "mkdir -p bin && cp ./src/main.js ./bin/main.js && chmod 700 ./bin/main.js",
+    "build": "mkdir -p bin && cp ./src/main.js ./bin/main.js && chmod 755 ./bin/main.js",
     "start": "node ./src/main.js",
     "start:watch": "node --watch ./src/main.js",
     "lint": "eslint ./src/",
