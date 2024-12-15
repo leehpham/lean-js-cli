@@ -4,7 +4,8 @@
 
 ## Todo
 
-- Consider replacing `arg` with `commander` or `yargs`.
+- [] Consider replacing `arg` with `commander` or `yargs`.
+- [] Research `winston` for logging.
 - [] Set up debugger
   - [x] vscode
   - phpstorm
