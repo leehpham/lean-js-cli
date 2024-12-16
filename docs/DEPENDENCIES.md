@@ -2,10 +2,18 @@
 
 ## Runtime Dependencies
 
+- `ajv`: JSON schema validator.
+  Developed and maintained by Ajv.  
 - `arg`: An unopinionated, no-frills CLI argument parser.
   Developed and maintained by Vercel.
+- `better-ajv-errors`: Provides relevent error messages for `ajv`.
+  Developed and maintained by Atlassian.
 - `chalk`: Terminal string styling done right.
   Developed and maintained by chalk.
+- `cosmiconfig`: Searches for and loads configuration for your program.
+  Developed and maintained by cosmiconfig.
+- `debug`: A tiny JavaScript debugging utility.
+  Developed and maintained by debug-js.
 
 ## Dev Dependencies
 
