@@ -2,10 +2,10 @@
   "name": "lean-js-cli",
   "version": "0.1.0",
   "main": "./src/main.js",
-  "bin": "./src/main.js",
+  "bin": "./bin/index.js",
   "scripts": {
-    "start": "node ./src/main.js",
-    "start:watch": "node --watch ./src/main.js",
+    "start": "node ./bin/index.js",
+    "start:watch": "node --watch ./bin/index.js",
     "lint": "eslint ./src/",
     "lint:fix": "eslint --fix ./src/"
   },
