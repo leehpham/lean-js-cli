@@ -4,6 +4,8 @@
 
 ## Todo
 
+- [] Inject `arg`.
+- [] Wrap `arg`.
 - [] Consider replacing `arg` with `commander` or `yargs`.
 - [] Research `winston` for logging.
 - [] Set up debugger
